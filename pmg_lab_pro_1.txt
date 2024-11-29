@@ -10,7 +10,7 @@ Demonstration of remote repository clone
     • git commit -m "Initial commit: Added myfile.txt”
     • git log
 2 
-    • git branch feature-branch
+    • git branch feature-branch 
     • git checkout feature-branch
     • git checkout master
     • git merge feature-branch
@@ -28,7 +28,8 @@ Demonstration of remote repository clone
     • git clone computerscienceapk@gmail.com:rupesh_git/repository.git
     • cd repository
 5
-    • git fetch
-    • git checkout <branch-name>
-    • git merge origin/<branch-name>
-    • git push origin <branch-name>
+    • git fetch/git remote
+    • git checkout <branch-name>/git remote add bharat url
+    • git merge origin/<branch-name>/git remote
+    • git push origin <branch-name>/git fetch bharat
+/git rebase bharat/main
