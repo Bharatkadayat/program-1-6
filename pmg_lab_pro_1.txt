@@ -23,13 +23,22 @@ ouDemonstration of remote repository clone
     • git add file.txt
     • git stash save "will be modified latter"
     • git checkout master
-git stash apply
+     git stash apply
 4
     • git clone https://github.com/rupesh-sah/git_pro_pmg_lab.git
-    •
-5
-    • git remote
-    • git remote add bharat url
-    git remote
-    • git fetch bharat
-git rebase bharat/main
+    
+5    
+    •  git checkout -b branch
+    • git remote add origin url
+    • git fetch origin
+     git rebase origin/main
+     git push origin local/branch
+6. 
+git checkout master
+git checkout -b branch
+vi file.txt
+git add file.txt
+git commoi -m "
+git checkout master 
+git merge branch -m "merging"
+   
