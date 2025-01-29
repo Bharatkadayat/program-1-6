@@ -1,4 +1,4 @@
-Demonstration of remote repository clone
+ouDemonstration of remote repository clone
     1
     • git config --global user.email "your-email@example.com"
     • git config --global user.name "Your Name"
@@ -17,12 +17,13 @@ Demonstration of remote repository clone
     • git log --oneline --graph
 
 3
-    • git stash
-    • git checkout <branch-name>
-    • git stash apply
-    • git stash list
-    • git stash apply stash@{0}
-    • git stash drop
+    • 
+    • git checkout -b branch
+    • vi file.txt
+    • git add file.txt
+    • git stash save "will be modified latter"
+    • git checkout master
+git stash apply
 4
     • git clone https://github.com/rupesh-sah/git_pro_pmg_lab.git
     •
